@@ -1,0 +1,36 @@
+[12:27:25] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:27:26] [main/INFO]: Found new data pack file/bukkit, loading it automatically
+[12:27:26] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[12:27:26] [Worker-Main-1/INFO]: Loaded 7 recipes
+[12:27:27] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[12:27:27] [Server thread/WARN]: ****************************
+[12:27:27] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[12:27:27] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[12:27:27] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[12:27:27] [Server thread/WARN]: ****************************
+[12:27:27] [Server thread/INFO]: Loading properties
+[12:27:28] [Server thread/INFO]: This server is running Paper version git-Paper-411 (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT) (Git: 6625db3 on ver/1.17.1)
+[12:27:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:27:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:27:28] [Server thread/INFO]: Default game type: SURVIVAL
+[12:27:28] [Server thread/INFO]: Generating keypair
+[12:27:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:27:28] [Server thread/INFO]: Using epoll channel type
+[12:27:28] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[12:27:28] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[12:27:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:27:28] [Server thread/INFO]: Preparing level "world"
+[12:27:32] [Server thread/WARN]: Unable to find spawn biome
+[12:27:33] [Server thread/WARN]: Unable to find spawn biome
+[12:27:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:27:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:27:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:27:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:27:35] [Server thread/INFO]: Time elapsed: 1785 ms
+[12:27:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:27:37] [Server thread/INFO]: Time elapsed: 1197 ms
+[12:27:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:27:37] [Server thread/INFO]: Time elapsed: 264 ms
+[12:27:37] [Server thread/INFO]: Running delayed init tasks
+[12:27:37] [Server thread/INFO]: Done (9.532s)! For help, type "help"
+[12:27:37] [Server thread/INFO]: Timings Reset
