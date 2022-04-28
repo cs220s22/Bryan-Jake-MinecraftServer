@@ -1,12 +1,15 @@
 # Bryan-Jake-MinecraftServer
 
 This is a minecraft server hosted with Docker and AWS.
+
+
 Running the Server Locally:
-    1.) Download Jarfile on https://www.minecraft.net/en-us/download/server
+
+	1.) Download Jarfile on https://www.minecraft.net/en-us/download/server
     2.) Edit Eula.txt file to be true
-    3.) java -Xmx1024M -Xms1024M -jar server.jar nogui 
-    4.) java -jar server.jar
-  
+	3.) java -Xmx1024M -Xms1024M -jar server.jar nogui 
+	4.) java -jar server.jar
+
 Running the Server (Docker):
 
     1.) Have docker running
@@ -25,20 +28,21 @@ Running the Server in a AWS EC2 intance:
     4.) Specify/Download a key par
     5.) Edit the Network settings creating a security group  
         1.) Specify a name and description Ex: Name: mine_server_security_group  description: minecraft server
-        2.) Create two rules for the security group one with type: ssh and source type: anywhere, other is a custom TCP with port range: 25565 and source type: anywhere
+        2.) Create two rules for the security group one with type: ssh and source type: anywhere, other is a custom 
+            TCP with port range: 25565 and source type: anywhere
     6.) add this to User Data
-#!/bin/bash
-sudo yum update
-sudo yum -y install docker
-sudo yum -y install git
-sudo curl -L https://github.com/docker/compose/releases/download/1.21.0/docker-compose-`uname -s`-`uname -m` | sudo tee /usr/local/bin/docker-compose > /dev/null
-git clone https://github.com/cs220s22/Bryan-Jake-MinecraftServer.git
-sudo systemctl start docker
-cd Bryan-Jake-MinecraftServer
-cd Docker
-sudo chmod +x /usr/local/bin/docker-compose
-sudo chmod 666 /var/run/docker.sock
-sudo service docker start && docker-compose up -d 
+        #!/bin/bash
+        sudo yum update
+        sudo yum -y install docker
+        sudo yum -y install git
+        sudo curl -L https://github.com/docker/compose/releases/download/1.21.0/docker-compose-`uname -s`-`uname -m` | sudo tee /usr/local/bin/docker-      compose > /dev/null
+        git clone https://github.com/cs220s22/Bryan-Jake-MinecraftServer.git
+        sudo systemctl start docker
+        cd Bryan-Jake-MinecraftServer
+        cd Docker
+        sudo chmod +x /usr/local/bin/docker-compose
+        sudo chmod 666 /var/run/docker.sock
+        sudo service docker start && docker-compose up -d 
 
 
 Technologies Used:
