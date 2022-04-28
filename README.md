@@ -31,8 +31,7 @@ Running the Server in a AWS EC2 intance:
         2.) Create two rules for the security group one with type: ssh and source type: anywhere, other is a custom 
             TCP with port range: 25565 and source type: anywhere
     6.) add this to User Data
-    
-    	```
+```
         #!/bin/bash
         sudo yum update
         sudo yum -y install docker
@@ -45,7 +44,7 @@ Running the Server in a AWS EC2 intance:
         sudo chmod +x /usr/local/bin/docker-compose
         sudo chmod 666 /var/run/docker.sock
         sudo service docker start && docker-compose up -d 
-	```
+```
 
 
 Technologies Used:
